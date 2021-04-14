@@ -10,5 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
   e.preventDefault()
   const li =  document.createElement('li')
   li.innerHTML = input.value
+  ul.append(li);
   }
 });
