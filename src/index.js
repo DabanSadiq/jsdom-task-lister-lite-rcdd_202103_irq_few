@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   e.preventDefault()
   const li =  document.createElement('li')
-
+  li.style.list-style='none';
   li.innerHTML = input.value
   ul.append(li);
   }
